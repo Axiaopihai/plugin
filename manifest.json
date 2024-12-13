@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "数学公式识别",
+  "version": "1.0",
+  "description": "使用Kimi API识别图片内容和数学公式并转换为Markdown格式",
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://api.moonshot.cn/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.svg",
+      "48": "icon.svg",
+      "128": "icon.svg"
+    }
+  },
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://api.moonshot.cn"
+  }
+} 
