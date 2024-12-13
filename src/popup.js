@@ -2,7 +2,7 @@ import OpenAI from 'openai';
 
 // 初始化 OpenAI 客户端（用于 Kimi API）
 const openai = new OpenAI({
-  apiKey: 'sk-KO3Ji7c9i80thxa7XhWCe4VfQfUnkXzqqgKKnYFhM0tjPqm2',
+  apiKey: 'sk-KO3Ji7c9i80thxa7XhWCe4VfQ****************',
   baseURL: 'https://api.moonshot.cn/v1', // Kimi API 端点
   dangerouslyAllowBrowser: true
 });
